@@ -1,0 +1,73 @@
+/* fonts - Merriweather */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(219, 226, 239 , 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.25rem;
+    font-family: "Merriweather", serif;
+}
+
+.navbar .logo{
+    background-image: url("../images/csi_logo.png");
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.navbar a:link{
+    text-decoration: none;
+}
+
+.navlinks{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.dropDown{
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.35rem;
+    color: #112D4E;
+}
+
+
+.loginButton button {
+    width: 80px;
+    height: 40px;
+    background: #3F72AF;
+    border: 1px solid #3F72AF;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 1.35rem;
+}
+
+.loginButton a{
+    color: aliceblue;
+}
+
+.loginButton button:hover,
+.loginButton Button:active {
+    background-color: initial;
+    background-position: 0 0;
+}
+
+.loginButton a:hover{
+    color: #3F72AF;
+}
+
+.loginButton button:active {
+    opacity: .5;
+}
