@@ -1,3 +1,9 @@
+/* fonts - Tinos */
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* fonts - Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
@@ -7,4 +13,68 @@
 body , html{
     height: 100%;
     width: 100%;
+}
+
+.hero{
+    width: 100%;
+    height: 90%;
+    background-image: url("../images/MIT-WPU-Pune.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;;
+    align-items: center;
+}
+
+.title{
+    text-transform: uppercase;
+    font-size: 8vmax;
+    text-align: center;
+}
+
+
+.title span{
+    animation-duration: 3.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    opacity: 0; 
+    font-family: "Tinos", serif;
+    background: linear-gradient(90deg, #0a356e, #1764b3, #4a91d4);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tail p{
+    width: 80%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Roboto Flex", serif;
+    opacity: 0;
+    animation-name: appear;
+    animation-delay: 4s;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.appear{
+    animation-name: appear;
+}
+
+
+
+@keyframes appear {
+    from {
+        opacity: 0; 
+    }
+
+    to {
+        opacity: 1; 
+    }
 }
