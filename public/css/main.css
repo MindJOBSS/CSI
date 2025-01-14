@@ -84,7 +84,7 @@ body , html{
 .main .intro{
     width: 90%;
     height: 90%;
-    background-color: #3F72AF;
+    background-color: #F9F7F7;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     display: flex;
     border-radius: 12px;
@@ -100,7 +100,7 @@ body , html{
     height: 100%;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(17, 25, 40, 0.25);
+    background-color: rgba(43, 117, 255, 0.839);
     border-top-left-radius: 12px;
     border-end-start-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);  
@@ -121,9 +121,10 @@ body , html{
   }
   
   .banner-image {
-    background-image: url("../images/WhatsApp\ Image\ 2025-01-14\ at\ 00.44.55_43691dad.jpg");
-    background-position: center;
+    background-image: url("../images/presidentcsi.jpeg");
+    background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
     height: 300px;
     width: 100%;
     border-radius: 12px;
@@ -147,8 +148,7 @@ body , html{
     border: none;
     padding: 12px 24px;
     border-radius: 24px;
-    font-size: 12px;
-    font-size: 0.8rem;  
+    font-size: 1.2rem;
     letter-spacing: 2px;  
     cursor: pointer;
   }
@@ -191,22 +191,24 @@ body , html{
     width: 70%;
     height: 100%;
     padding: 1rem 3rem;
-    color: azure;
 }
 
 .right h1{
     font-family: "Tinos", serif;
     font-size: 2rem;
+    color: #2e6fbd;
 }
 
 .right p{
     margin-top: 2rem;
     font-size: 1.2rem;
+    color: #3C3D37;
 }
 
 .signature{
     font-size: 1.4rem;
     margin-top: 2rem;
+    color: #2e6fbd;
 }
 
 
